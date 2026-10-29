@@ -1,0 +1,24 @@
+{
+  "name": "weather-agent-loop",
+  "version": "1.0.0",
+  "description": "A minimal multi-step tool-calling agent with the Vercel AI SDK, following Matt Pocock's AI Hero guide",
+  "scripts": {
+    "start": "tsx main.ts",
+    "test": "vitest run"
+  },
+  "keywords": [],
+  "license": "MIT",
+  "type": "module",
+  "packageManager": "pnpm@10.34.4",
+  "dependencies": {
+    "@ai-sdk/openai": "^4.0.104",
+    "ai": "^7.0.156",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "tsx": "^4.23.15",
+    "typescript": "^7.0.2",
+    "vitest": "^5.0.5"
+  }
+}
